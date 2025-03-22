@@ -55,7 +55,7 @@ function obtenerMayor(){
         if (notaMatematica == mayorNum) mayorNota.push("matemática");
         if(notaLengua == mayorNum) mayorNota.push("lengua");
         if (notaEfsi == mayorNum) mayorNota.push("EFSI");
-        mayor.innerHTML = `La/las materias que obtuvo/ieron la mayor nota son: ${mayorNota.join(", ")}`;
+        mayor.innerHTML = `La/las materia/s que obtuvo/ieron la mayor nota es/son: ${mayorNota.join(", ")}`;
         reaccion.innerHTML = `<img width="30%" src="images/Yipee2.gif">`;
     }
     }
